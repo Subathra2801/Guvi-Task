@@ -1,0 +1,31 @@
+<form action="register.php" method="post">
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address">
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
+  </div>
+  <div class="form-group">
+    <label for="first_name">First name</label>
+    <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Enter your first name">
+  </div>
+  <div class="form-group">
+    <label for="last_name">Last name</label>
+    <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Enter your last name">
+  </div>
+  <div class="form-group">
+    <label for="age">Age</label>
+    <input type="number" class="form-control" id="age" name="age" placeholder="Enter your age">
+  </div>
+  <div class="form-group">
+    <label for="dob">Date of birth</label>
+    <input type="date" class="form-control" id="dob" name="dob">
+  </div>
+  <div class="form-group">
+    <label for="contact">Contact</label>
+    <input type="text" class="form-control" id="contact" name="contact" placeholder="Enter your contact number">
+  </div>
+  <button type="submit" class="btn btn-primary">Sign up</button>
+</form>
