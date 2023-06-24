@@ -1,0 +1,15 @@
+db.users.insert({
+  "email": "user@example.com",
+  "password": "password",
+  "first_name": "John",
+  "last_name": "Doe",
+  "age": 20,
+  "dob": "1990-01-01",
+  "contact": "123-456-7890"
+});
+
+db.users.find({"email": "user@example.com"});
+
+redis.set("session_id", "session_data");
+
+redis.get("session_id");
